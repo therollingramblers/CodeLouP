@@ -1,0 +1,45 @@
+
+body {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.main-header {
+    background-image: url("../images/waterfall.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 100px;
+    color: aliceblue;
+
+}
+
+.main-header a:hover {
+   color: white;
+}
+
+.timeline {
+    padding-left: 1em;
+}
+
+.kayak {
+    width: 200px;
+    float: right;
+    padding-right: 1em;
+}
+
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: grey;
+    padding: 2em 0;
+   
+}
