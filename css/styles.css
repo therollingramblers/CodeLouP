@@ -58,6 +58,11 @@ a:hover {
     margin-bottom: .5em;
 }
 
+.instagram {
+    width: 29px; 
+    height: 29px; 
+    
+}
 
 .timeline {
     padding: 12px 12px;
