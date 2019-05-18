@@ -76,7 +76,6 @@ a:hover {
 }
 
 .timeline {
-    /* margin: 0 0 2em; */
     padding: 12px 12px;
 }
 
@@ -90,15 +89,6 @@ a:hover {
     width: 200px;
 }
 .main-footer {
-    /* min-height: calc(100vh-50px);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    height: 35px;
-    width: 100%;
-    background: #8B8E84; 
-    padding: 1em 0;      */
-
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -117,22 +107,29 @@ a:hover {
 
 /* Media Queries */
 
-@media (min-width: 798px){
+/* Tablet size */
+@media (min-width: 768px){
 
-.main-header{
-    text-align: center; 
+    .main-header{
+        text-align: center; 
 
+    }
+
+    .main-nav {
+        padding-left: 1.25em; /*To center nav under title. 
+                            Remove if spacing issue is solved*/
+    }
+
+    .main-nav li {
+        display: inline-block; 
+        padding: .5em; 
+        width: 100px;
+    }
 }
 
-.main-nav {
-    padding-left: 1.25em; /*To center nav under title. 
-                          Remove if spacing issue is solved*/
-}
 
-.main-nav li {
-    display: inline-block; 
-    padding: .5em; 
-    width: 75px;
-}
-}
+/* Laptop size */
+@media (min-width: 1024px){
 
+
+}
