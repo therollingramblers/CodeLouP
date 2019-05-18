@@ -7,15 +7,12 @@
 
 body {
     color: black;
-    /* margin-bottom: 2em; */
 }
 
 a {
     color: orange;
     text-decoration: none; 
 }
-
-
 
 h1 {
     margin: 0; 
@@ -85,9 +82,11 @@ a:hover {
     padding-right: 1em;
 }
 
-.Random {
+.Random,
+.waterfall {
     width: 200px;
 }
+
 .main-footer {
     position: absolute;
     bottom: 0;
@@ -124,6 +123,9 @@ a:hover {
         display: inline-block; 
         padding: .5em; 
         width: 100px;
+    }
+    .waterfall {
+        width: 250px;
     }
 }
 
