@@ -1,12 +1,23 @@
+/* This page has the styling for index.html */
 
-/* Main Elements */
+/* ================
+    Main Elements 
+===================*/
 
 * {
     box-sizing: border-box;
 }
 
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
 body {
     color: black;
+    background: linear-gradient(white, white, grey, grey);
 }
 
 a {
@@ -19,12 +30,20 @@ h1 {
     padding: 1em 0 .5em;
 }
 
-/* Psuedo ELements */
+
+/* ====================
+    Psuedo ELements 
+=======================*/
+
 a:hover {
     color: rgb(21, 196, 21);
 }
 
-/* Classes */
+
+/* ====================
+    Classes 
+=======================*/
+
 .main-header {
     background: linear-gradient(#144474, lightblue, #ffffff); 
     text-align: left;
@@ -87,6 +106,14 @@ img.waterfall,
     width: 250px; 
 }
 
+.timeline,
+.trails,
+.creatures {
+    background-color: rgb(181, 251, 251);
+    border-radius: 1em;
+    padding-top: .25em;
+    margin: 1em;
+}
 .bus, 
 .moreBus, 
 .descript {
@@ -104,25 +131,36 @@ img.waterfall,
     padding-bottom: 1.5em;
 }
 .main-footer {
+    color: rgb(181, 251, 251);
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    background: #8B8E84;
+    background: rgb(92, 91, 91);
     text-align: center;
     padding: .75em 0;
-    
+    /* border-top: white 2px solid; */
 }
+
+
+/* ================
+        ID's 
+===================*/
 
 #wrapper {
     position: relative;
     min-height: 100vh;
     padding-bottom: 4em;
+    /* flex: 1; */
 }
 
-/* Media Queries */
+
+/* ================
+    Media Queries 
+===================*/
 
 /* Tablet size */
+
 @media (min-width: 768px){
 
     .main-header{
@@ -148,12 +186,14 @@ img.waterfall,
     .waterfall {
         width: 55%;
         float: left; 
+        border-radius: 1em 0 0 1em;
     }
 
     .timeline {
         width: 80%; 
-        background-color: magenta; 
+        background-color: rgb(181, 251, 251); 
         margin: 0 auto; 
+        border-radius: 1em;
     }
 
     .bus, 
@@ -173,7 +213,7 @@ img.waterfall,
     }
 
     .trails {  
-        background-color: limegreen; 
+        background-color: rgb(181, 252, 252); 
         margin-left: 5%; 
         margin-right: 5%; 
         float: left; 
@@ -189,10 +229,11 @@ img.waterfall,
     .creatures {
         width: 42.5%; 
         float: left; 
+        border-radius: 1em;
     }
 
     .creatures {   
-        background-color: orange; 
+        background-color: rgb(181, 252, 252); 
     }
 
     .chunk {
@@ -215,6 +256,7 @@ img.waterfall,
 
 
 /* Laptop size */
+
 @media (min-width: 1024px){
 
 
