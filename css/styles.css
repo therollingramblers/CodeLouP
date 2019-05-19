@@ -28,7 +28,7 @@ a:hover {
 .main-header {
     background: linear-gradient(#144474, lightblue, #ffffff); 
     text-align: left;
-    margin: 0;  
+    margin: 0 0 2em;  
     padding: 0 1em .5em 1em; 
     box-sizing: border-box;
     font-family: 'Arial narrow bold', Helvetica, sans-serif;
@@ -72,21 +72,37 @@ a:hover {
     -webkit-filter: invert(90%); filter: invert(90%);    
 }
 
-.timeline {
-    padding: 12px 12px;
-}
-
+img.waterfall, 
+.random, 
 .kayak {
-    position: center;
-    width: 200px;
-    padding-right: 1em;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    /* margin-top: 2em;  */
 }
 
-.Random,
-.waterfall {
-    width: 200px;
+.waterfall, 
+.random, 
+.kayak {
+    width: 250px; 
 }
 
+.bus, 
+.moreBus, 
+.descript {
+    width: 90%; 
+    margin: 1em auto; 
+}
+
+.bus,
+.secHead {
+    text-align:  center;
+}
+
+.descript,
+.moreBus {
+    padding-bottom: 1.5em;
+}
 .main-footer {
     position: absolute;
     bottom: 0;
@@ -101,7 +117,7 @@ a:hover {
 #wrapper {
     position: relative;
     min-height: 100vh;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 /* Media Queries */
@@ -111,7 +127,12 @@ a:hover {
 
     .main-header{
         text-align: center; 
+        padding-top: 25px; 
+        margin: 0;
+    }
 
+    .name {
+        font-size: 3em; 
     }
 
     .main-nav {
@@ -125,9 +146,72 @@ a:hover {
         width: 100px;
     }
     .waterfall {
-        width: 250px;
+        width: 55%;
+        float: left; 
+    }
+
+    .timeline {
+        width: 80%; 
+        background-color: magenta; 
+        margin: 0 auto; 
+    }
+
+    .bus, 
+    .moreBus {
+        width: 45%; 
+        padding-left: 4%;
+        padding-right: 4%; 
+    }
+
+    .bus {
+        text-align: center; 
+        float: right; 
+    }
+
+    .moreBus {
+        float: left; 
+    }
+
+    .trails {  
+        background-color: limegreen; 
+        margin-left: 5%; 
+        margin-right: 5%; 
+        float: left; 
+    }
+
+    .random,
+    .kayak {   
+        width: 100%;
+        height: 240px; 
+    }
+
+    .trails, 
+    .creatures {
+        width: 42.5%; 
+        float: left; 
+    }
+
+    .creatures {   
+        background-color: orange; 
+    }
+
+    .chunk {
+        margin: 2em 0 6em; 
+    }
+
+    .secHead {
+       
+    }
+
+    .clearfix::after {
+        content: ""; 
+        display: table; 
+        clear: both;
+        overflow: auto; 
     }
 }
+
+
 
 
 /* Laptop size */
@@ -135,3 +219,4 @@ a:hover {
 
 
 }
+
