@@ -17,7 +17,7 @@
 
 body {
     color: black;
-    background: linear-gradient(white, white, grey, grey);
+    background: white;
 }
 
 a {
@@ -45,7 +45,7 @@ a:hover {
 =======================*/
 
 .main-header {
-    background: linear-gradient(#144474, lightblue, #ffffff); 
+    background: linear-gradient(#144474, lightblue, white); 
     text-align: left;
     margin: 0 0 2em;  
     padding: 0 1em .5em 1em; 
@@ -109,7 +109,7 @@ img.waterfall,
 .timeline,
 .trails,
 .creatures {
-    background-color: rgb(181, 251, 251);
+    background-color: #ecf0f1;
     border-radius: 1em;
     padding-top: .25em;
     margin: 1em;
@@ -192,7 +192,6 @@ img.waterfall,
 
     .timeline {
         width: 80%; 
-        background-color: rgb(181, 251, 251); 
         margin: 0 auto; 
         border-radius: .5em;
         padding-top: 0;
@@ -219,8 +218,7 @@ img.waterfall,
         padding-bottom: 0;
     }
 
-    .trails {  
-        background-color: rgb(181, 252, 252); 
+    .trails {   
         margin-left: 5%; 
         margin-right: 5%; 
         float: left; 
@@ -242,10 +240,6 @@ img.waterfall,
         padding-top: 0;
         display: flex;
         flex-direction: column;
-    }
-
-    .creatures {   
-        background-color: rgb(181, 252, 252); 
     }
 
     .chunk {
