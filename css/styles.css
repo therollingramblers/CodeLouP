@@ -39,6 +39,17 @@ a:hover {
     color: rgb(21, 196, 21);
 }
 
+.kayak:hover {
+    opacity: 0.5;
+}
+
+.kayak:hover::before {
+    content: 'Click here for Creature Test';
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
 
 /* ====================
     Classes 
@@ -151,7 +162,7 @@ img.waterfall,
 #wrapper {
     position: relative;
     min-height: 100vh;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
     /* flex: 1; */
 }
 
@@ -243,7 +254,7 @@ img.waterfall,
     }
 
     .chunk {
-        margin: 2em 0 6em; 
+        /* margin: 2em 0 6em;  */
     }
 
     .clearfix::after {
@@ -258,9 +269,9 @@ img.waterfall,
 
 
 /* Laptop size */
+/* 
+@media (min-width: 1024px){ */
 
-@media (min-width: 1024px){
 
-
-}
+/* Test hover */
 
