@@ -1,14 +1,21 @@
+/*========================== 
+Styling for the Star rating system 
+============================*/
+
+.rating-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
 
 #rating {
   text-align: center;
   perspective: 250px;
-  width: 200px;
+  width: 125px;
   background: black;
   display: flex;
-  /* flex-direction: row;
-  order: -1; */
-  float: right;
   margin-right: 2em;
+  align-self: center;
 }
 
 #rating span {
@@ -16,10 +23,11 @@
   font-size: 15px;
   color: darkgrey;
   opacity: .5;
-  transition: all 150ms;
   flex: 1;
+  transition: all 150ms;
   transform: rotateX(45deg);
   transform-origin: center bottom;
+  position: relative;
 }
 
 #rating span.hover {
