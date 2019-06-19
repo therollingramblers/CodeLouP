@@ -41,7 +41,16 @@ function StarRating() {
     window.setTimeout(function() {
       starMessage.classList.remove("star-message-show");
     }, 1000);
+
+
   };
+
+  /*=====================
+  Makes the stars stay active when clicked until page is refreshed.
+  =======================*/
+  // StarRating.prototype.clickStar = function(e) {
+
+  // }
 
   /*=====================
    This method is fired when the user leaves the #rating element, effectively removing all hover states.
@@ -71,5 +80,3 @@ function StarRating() {
   new StarRating();
 
   // Create a clickable star system
-
-  

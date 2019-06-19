@@ -1,0 +1,32 @@
+/* This page contains the styling for creature.html */
+
+/*==========
+Main Elements
+==========*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background: white;
+    font-family: cursive;
+    background: linear-gradient(lightgreen, rgb(169, 224, 169))
+}
+
+h1 {
+    background: linear-gradient(green, lightgreen, lightgreen);
+    font-family: monospace;
+    text-align: center;
+    height: 200px;
+    padding-top: 100px;
+}
+
+/*==========
+Classes
+==========*/
+
+.main-header {
+    left: 50px;
+}

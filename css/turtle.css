@@ -1,0 +1,30 @@
+
+html {
+    transform: rotate(180deg);
+}
+
+body {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    background: url(../images/IMG_6188.JPG) bottom left no-repeat;
+    background-size: cover;
+}
+
+body {
+    transform: rotate(180deg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: blue;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.flip {
+    background-color: black;
+    color: white;
+}
+

@@ -1,4 +1,4 @@
-/* This page has the styling for index.html */
+/* This page contains the styling for index.html */
 
 /* ================
     Main Elements 
@@ -16,9 +16,8 @@
 } */
 
 body {
-    color: black;
-    background: white;
-    font-family: cursive;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a {
@@ -58,7 +57,7 @@ a:hover {
 
 .main-header {
     background: linear-gradient(#144474, lightblue, white); 
-    text-align: left;
+    text-align: center;
     margin: 0 0 2em;  
     padding: 0 1em .5em 1em; 
     box-sizing: border-box;
@@ -74,11 +73,6 @@ a:hover {
    color: #B8CA98;
 }
 
-.name {
-    text-align: center;
-    /* width: 100%;
-    z-index: 1000; */
-}
 
 .main-nav a {
     display: block;
@@ -116,18 +110,15 @@ img.bus1,
 .bus2,
 .bus3,
 .bus4 {
-    width: 23%;
+    width: 24%;
     border-radius: 2em;
 }
 
-.bus4 {
-    align-self: center;
-}
 
 .waterfall, 
 .random, 
 .kayak {
-    width: 250px; 
+    width: 85%; 
 }
 
 .timeline,
@@ -168,14 +159,14 @@ img.bus1,
 }
 
 .pictures {
-    width: 100%;
-    margin: 0 12px;
-    display: flex;
+    /* width: 100%; */
+    margin: 0 0 0 20px;
+    /* display: inline-flex;
+    align-content: space-between; */
 }
 
 .pics {
-    align-content: space-between;
-    align-self: center;
+    /* margin: 0 auto; */
 }
 
 .star-message {
@@ -265,6 +256,7 @@ img.bus1,
     .descript,
     .moreBus {
         padding-bottom: 0;
+        
     }
 
     .trails {   
@@ -296,6 +288,13 @@ img.bus1,
     }
 
     .clearfix::after {
+        content: ""; 
+        display: table; 
+        clear: both;
+        overflow: auto; 
+    }
+
+    .clearfix::before {
         content: ""; 
         display: table; 
         clear: both;
