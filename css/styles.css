@@ -10,9 +10,11 @@
 
 
 /* body {
+           DIDN'T ADD TO NEW CSS
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 } */
 
 body {
@@ -61,7 +63,7 @@ a:hover {
     margin: 0 0 2em;  
     padding: 0 1em .5em 1em; 
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     height: 250px;
 
 }
@@ -76,7 +78,6 @@ a:hover {
 
 .main-nav a {
     display: block;
-
 }
 .main-nav li {
     text-align: center;
@@ -163,10 +164,6 @@ img.bus1,
     margin: 0 0 0 20px;
     /* display: inline-flex;
     align-content: space-between; */
-}
-
-.pics {
-    /* margin: 0 auto; */
 }
 
 .star-message {

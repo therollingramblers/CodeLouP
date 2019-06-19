@@ -1,0 +1,90 @@
+/* ================
+    Main Elements 
+===================*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none; 
+}
+
+h1 {
+    margin: 0; 
+    padding: 1em 0 .5em;
+}
+
+/* ====================
+    Psuedo ELements 
+=======================*/
+
+a:hover {
+    color: rgb(21, 196, 21);
+}
+
+.kayak:hover {
+    opacity: 0.5;
+}
+
+.kayak:hover::before {
+    content: 'Click here for Creature Test';
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+/* ====================
+    Classes 
+=======================*/
+
+.main-header {
+    background: linear-gradient(#144474, lightblue, white); 
+    text-align: center;
+    margin: 0 0 2em;  
+    padding: 0 1em .5em 1em; 
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    height: 250px;
+}
+
+.main-header a {
+    color: rgb(0, 0, 0); 
+}
+
+.main-header a:hover {
+   color: #B8CA98;
+}
+
+.main-nav li {
+    padding-bottom: 1em;
+}
+
+
+/* ================
+    Media Queries 
+===================*/
+
+/* Tablet size */
+
+@media (min-width: 768px) {
+.main-nav {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    width: 150px;
+    background: lightblue;
+}
+}
